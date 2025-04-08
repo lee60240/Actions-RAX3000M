@@ -99,6 +99,7 @@ jobs:
         DEBIAN_FRONTEND: noninteractive
       run: |
         sudo rm -rf /etc/apt/sources.list.d/* /usr/share/dotnet /usr/local/lib/android /opt/ghc
+        sudo -E add-apt-repository universe
         sudo -E apt-get -qq update
         sudo -E apt-get -qq install $(cat $GITHUB_WORKSPACE/depends/${{ matrix.os }})
         sudo -E apt-get -qq install protobuf-c-compiler libprotobuf-c-dev
