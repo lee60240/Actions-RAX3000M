@@ -167,14 +167,14 @@ mkdir quectel_QMI_WWAN
 mkdir fibocom_QMI_WWAN
 mkdir meig_QMI_WWAN
 mkdir quectel_cm_5G
-# mkdir quectel_MHI
-# mkdir luci-app-hypermodem
+mkdir quectel_MHI
+mkdir luci-app-hypermodem
 cp -rf ../Modem-Support/quectel_QMI_WWAN/* quectel_QMI_WWAN
 cp -rf ../Modem-Support/fibocom_QMI_WWAN/* fibocom_QMI_WWAN
 cp -rf ../Modem-Support/meig_QMI_WWAN/* meig_QMI_WWAN
 cp -rf ../Modem-Support/quectel_cm_5G/* quectel_cm_5G
-# cp -rf ../Modem-Support/quectel_MHI/* quectel_MHI
-# cp -rf ../Modem-Support/luci-app-hypermodem/* luci-app-hypermodem
+cp -rf ../Modem-Support/quectel_MHI/* quectel_MHI
+cp -rf ../Modem-Support/luci-app-hypermodem/* luci-app-hypermodem
 
 # 5G模组短信插件
 mkdir sms-tool
